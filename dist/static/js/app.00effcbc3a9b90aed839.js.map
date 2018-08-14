@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/main.js"],"names":[],"mappings":"qGAIA,cAAI","file":"static/js/app.00effcbc3a9b90aed839.js","sourcesContent":["import Vue from 'vue';\n\n\n/*eslint-disable no-new*/\nnew Vue({\n\t\n})\n\n\n\n// WEBPACK FOOTER //\n// ./src/main.js"],"sourceRoot":""}
