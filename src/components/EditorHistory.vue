@@ -27,6 +27,7 @@ export default {
   },
   methods: {
     addExperience:function(){
+        console.log(this.editorHistory);
         const json = {}
         this.keys.map((key) => {
             json[key]=''

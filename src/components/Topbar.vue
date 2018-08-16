@@ -5,22 +5,18 @@
     <div class="actions">
       <el-button class="login" type="primary">登录</el-button>
       <el-button class="register">注册</el-button>
+      <el-button @click="preview">预览</el-button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-    };
-  },
-
-  components: {},
-
-  computed: {},
-
-  methods: {}
+  methods: {
+    preview:function(){
+      this.$emit('preview');
+    }
+  }
 }
 
 </script>
@@ -31,6 +27,5 @@ export default {
     padding:16px;
     font-size:20px;
     align-items:center;
-    
   }
 </style>
